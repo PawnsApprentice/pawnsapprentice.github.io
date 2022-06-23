@@ -39,8 +39,7 @@
 }
 
 .container.contact-page,
-.container.about-page,
-.container.portfolio-page {
+.container.about-page {
   h1 {
     font-size: 53px;
     font-family: 'Coolvetica';
@@ -109,6 +108,20 @@
   .text-animate-hover {
     &:hover {
       color: #fff;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .container.about-page {
+    .text-zone {
+      width: 55%;
+    }
+  }
+  .container.contact-page {
+    .text-zone {
+      width: 55%;
+      margin-left: 10%;
     }
   }
 }
